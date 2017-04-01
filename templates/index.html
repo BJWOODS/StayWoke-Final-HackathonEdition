@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Stay Woke</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<script src="{{ url_for('static', filename='js/typed.js') }}"></script>
+		<script>
+		  document.addEventListener('DOMContentLoaded', function(){
+		      Typed.new('.element', {
+		        strings: ["Woke", "Educated", "Aware", "Ready", "Informed", "Engaged", "Culturally Responsible", "Positive", "Black", "Black....Engineers"],
+		        typeSpeed: 25,
+		        backDelay: 4000,
+		        loop: true,
+		      });
+		  });
+		</script>
+		<script type="text/javascript">
+			if ("geolocation" in navigator) {
+			  /* geolocation is available */
+			  navigator.geolocation.getCurrentPosition(function(position) {
+				console.log(position.coords.latitude, position.coords.longitude);
+			  });
+			} else {
+			  /* geolocation IS NOT available */
+			}
+		</script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- SideBar -->
+		<!-- Header -->
+			<section id="header" class="dark" style="background-image: url({{ url_for('static', filename='images/Beyonce.jpg') }}); background-repeat: no-repeat; background-size: 100% auto; backround-position: top left,center center;	background-repeat: repeat, no-repeat; padding: 14em 0 14 em 0; text-align:center; color:#
+">
+				<header>
+					<h1 style="display: inline-block">Stay&nbsp;</h1><h1 class="element" style="display: inline-block"></h1><h1 style="display: inline-block">.</h1>
+					
+				</header>
+				<footer>
+					<a href="{{ url_for('dez',)}}" class="button scrolly">Enter Site</a>
+				</footer>
+			</section>
+			<div style="display: hidden">
+				<iframe style="opacity: .7;" width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291270561&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+			</div>
+	</body> 
+</html>

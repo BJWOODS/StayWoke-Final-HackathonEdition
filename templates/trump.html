@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--
+-->
+<html>
+	<head>
+		<title>MultiProfiles</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--<link rel="stylesheet" href="assets/css/main.css" />-->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Stay Woke</h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#professionalprofiles" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Politician Profiles</span></a></li>
+								<li><a href="#realfakenews" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-newspaper-o">Real Fake News</span></a></li>
+								<li><a href="https://vote.gov/" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-check-square">Register To Vote</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/staywoke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul>
+						<div class="icons uk-text-center">
+							<a class="skel-layers-ignoreHref" style="color: #fff;"><span>staywoke@yallsleep.com</span></a>
+						</div>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+				<!-- Portfolio -->
+					<section id="professionalprofiles" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Most Searched Politicians</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/384px-President_Barack_Obama.jpg" alt="Barak Obama" /></a>
+										<header>
+											<h3>Barak Obama</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Speaker_Paul_Ryan_official_photo_%28cropped_2%29.jpg/408px-Speaker_Paul_Ryan_official_photo_%28cropped_2%29.jpg" alt="Paul Ryan" /></a>
+										<header>
+											<h3>Paul Ryan</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit" uk-toggle="target: #trumpinfo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/384px-Donald_Trump_official_portrait.jpg" alt="Donald Trump" /></a>
+										<header>
+											<h3>Donald Trump</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#trumpinfo" class="image fit" uk-toggle><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pat_Roberts_official_Senate_photo.jpg/398px-Pat_Roberts_official_Senate_photo.jpg" alt="Pat Roberts (KS)" /></a>
+										<header>
+											<h3>Sen. Pat Roberts (KS)</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg/384px-Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg" alt="Hillary Clinton" /></a>
+										<header>
+											<h3>Hillary Clinton</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sam_Brownback%2C_CPAC_2015_headshot.jpg/366px-Sam_Brownback%2C_CPAC_2015_headshot.jpg" alt="Sam Brownback" /></a>
+										<header>
+											<h3>Gov. Sam Brownback (KS)</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="realfakenews" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Real Fake News</h2>
+							</header>
+
+							<a href="#" class="image featured"><img style="max-width:70px" src="{{url_for('static', filename='images/nationalenquirer-logo.svg')}}" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Stay Woke. All rights reserved.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+		
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrollzer.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.min.css" />
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit-icons.min.js"></script>
+
+	</body>
+</html>
+
+<div id="trumpinfo" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <h2 class="uk-modal-title">Businessman</h2>
+        <small> Billionaire real estate developer, businessman and television personality Donald Trump -- who had never held public office -- flirted with the idea of running for president for decades before jumping into the 2016 race. Trump ran an unconventional campaign, one that tapped into the frustrations of millions of Americans who felt their concerns were being ignored by establishment politicians. Still, his statements about immigrants, Obamacare and even his own previous positions were frequently rated untrue or misleading by independent factchecking websites. While Trump raised less money than his Democratic rival, Hillary Clinton, he received free media attention valued at about $5 billion. At 70, Trump was older than any previous U.S. president at the time he took office, and was the fifth commander in chief to have lost the popular vote. He maintained, without credible evidence, that millions of undocumented immigrants voted illegally. Trump chose Indiana Gov. Mike Pence as his running mate. Pence had been a congressman for 12 years, joining the Tea Party Caucus and building a reputation as a strong social conservative.</small>
+    </div>
+</div>
